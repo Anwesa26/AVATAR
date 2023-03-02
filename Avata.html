@@ -21,19 +21,19 @@
         <style>
 
             .navbar {
-                background: #2a4b79;
+                background:#1D5C63;
                 color: azure;
                 height: 80px;
-                padding-left: 600px;
+                padding-left: 650px;
 
             }
             .btn{
-                background:  #2a4b79;
+                background:  #4e4c4c;
                 color: rgb(227, 241, 241);
             }
         </style>
 </head>
-<body>
+<body style="background-color:#87bebb ;">
     
     <div class="container-fluid">
         <div class="row">
@@ -44,9 +44,10 @@
             </div>
         </div>
         <div class="row">
+            
             <div class="col-md-6">
-                <div class="card" style="background-color:white">
-                    <h2>CHOOSE A CHARACTER:</h2>
+                <div class="card" style="background-color:#D8D9CF; padding-bottom:90px ;" >
+                    <h2>CHOOSE AN IMAGE:</h2>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card"><img src="img/first.jpeg" alt="first" style="padding: 6px;  border:5px; background-color:white;"></div>
@@ -60,17 +61,21 @@
                         <div class="card"><img src="img/third.jpeg" alt="character image" style="padding: 6px;  border:5px; background-color:white;"></div>
                     </div>
                 </div>
-                <button class="btn " type="button" style="margin-top: 10px;">Choose</button>
-                </div>
-                <div class="card" style="background-color:white">
+            </div>
+                
+                <div class="card" style="background-color:#D8D9CF ; ">
                    
-                <div class="row">
                     <h2>CHOOSE A VIDEO:</h2>
+                    <div class="row">
+                     
+                    
+                
 
                     <div class="col-md-4">
+                        
                         <video width="190" height="150" controls>
-                            <source src="video/first (2).mp4" type="video/mp4" style="padding: 10px;  border:5px;">
-                            <source src="video/first (2).mp4" type="video/ogg" style="padding: 10px;  border:5px;">
+                            <source src="video/first (2).mp4" type="video/mp4" style="padding: 50px;  border:10px;">
+                            <source src="video/first (2).mp4" type="video/ogg" style="padding: 50px;  border:10px;">
                         
                           </video>
                     </div>
@@ -88,27 +93,32 @@
                         
                           </video>
                     </div>
-                    <button class="btn " type="button" style="margin-top: 10px;">Choose</button>
+                
                 </div>
+                
             </div>
+            
+            <button class="btn " type="button" style="margin-top: 10px; background-color: #4e4c4c ; width: 712px;">Choose</button>
             </div>
             <div class="col-md-6">
-                <div class="card" style="background-color:white">
+                <div class="card" style="background-color:#D8D9CF">
                     <h2>GENERATE:</h2>
                     <div class="card-body">
-                        <div class="col-md-6">
-                        <div class="card">
+                        <div class="col-md-6" style="padding: 140px;padding-top: 10px;padding-bottom: 7px;">
+                        <!-- <div class="card"> -->
                             <div class="container-fluid">
-                            <img src="img/third.jpeg" alt="character image" width="200px;" style="padding: 6px;  border:5px; background-color:white; float:left; ">
-                            <img src="img/second.jpeg" alt="character image" width="200px" style="padding: 6px;  border:5px; background-color:white;"></div>
+                            <img src="img/third.jpeg" alt="character image" width="300px;" style="padding: 6px;  border:5px; background-color:white; float:left; ">
+                            
+                            <img src="img/second.jpeg" alt="character image" width="300px" style="padding: 6px;  border:5px; background-color:white;"></div>
                         </div>
                     </div>
                     
                     
 
                     <div class="col-md-6S">
-                        <div class="card" style="background-color:white;"> <br> <div class="mb-3 row">
-                            <label for="inputText" class="col-sm-2 col-form-label">TEXT</label>
+                        <!-- <div class="card" style="background-color:#5d9b98; padding-top: 80px;"> <br>  -->
+                            <div class="mb-3 row" style="padding-top: 50px;">
+                            <label for="inputText" class="col-sm-2 col-form-label"><h3>TEXT---</h3></label>
                             <div class="col-sm-10">
                               <input type="text" class="form-control" id="inputText" style="width:400px; float:left;">
                     </div>
@@ -116,12 +126,17 @@
                     </div>
                     <div class="row">
                         <div class="col-md-3">
+                            
+                        </div>
+                        <div class="col-md-3">
                             <button type="button" class="btn btn-secondary" style="width:150px;">MALE VOICE</button>
                         </div>
                         <div class="col-md-3">
-                            <button type="button" class="btn btn-dark" style="width:150px;">FEMALE VOICE</button>
+                            <button type="button" class="btn btn-secondary" style="width:150px;">FEMALE VOICE</button>
                         </div>
-                        <div class="col-md-6"></div>
+                        <div class="col-md-3">
+
+                        </div>
                     </div>
                 </div>
             </div>
